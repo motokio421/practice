@@ -1,0 +1,318 @@
+body{
+  color: #082b48;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #082b48;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.container{
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.clear::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#page_top a:hover {
+  background-color: #666;
+  text-decoration: none;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  header
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+header{
+  padding: 20px;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-title {
+font-weight: bold;
+font-size: 24px;
+}
+
+.header-list-item{
+  float: left;
+  margin-right: 50px;
+}
+
+.header-list-item a{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.header-toggle{
+  position: absolute;
+  display: none;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  top
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.top{
+background-image: url(../img/main-vsual-nontitle.png);
+background-size: cover;
+padding: 80px 0px;
+}
+
+.top-title{
+  font-size: 48px;
+  font-weight:bold;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+.top-subtitle{
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  section共通食クラス
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.section {
+  padding: 60px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+about
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.about-left{
+float: left;
+width: 48%;
+}
+
+.about-right{
+float: right;
+width: 48%;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+course
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.course{
+background-color: #e3fcf4;
+}
+
+.course-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-item{
+  width: 30%;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  contact
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.contact-message{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="email"]{
+  width: 600px;
+  border: 3px solid #d8d8d8;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  padding: 20px 60px;
+  display: inline-block;
+  background-color: #082b48;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+
+.btn-register{
+  background-color: #ec6d64;
+  display: block;
+  margin: auto;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  footer
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+footer{
+  background-color: #082b48;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.copy-write{
+  float: right;
+  font-size: 12px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  レスポンシブスマホ用
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+@media only screen and (max-width:767px){
+
+  .clear::after{
+    content: none;
+  }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  header
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+  .header-left{
+    float: none;
+  }
+
+  .header-title{
+    text-align: center
+    ;
+  }
+
+  .header-right{
+    float: none;
+  }
+
+  .header-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-list-item{
+    float: none;
+    margin: 0;
+  }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  top
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+  .top {
+    padding: 120px 0px;
+  }
+
+  .top-title{
+    font-size: 32px;
+  }
+
+  .top-subtitle{
+    font-size: 14px;
+  }
+
+  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  section共通食クラス
+  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+  .section {
+    padding: 80px 0px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .section p{
+    font-size: 14px;
+  }
+
+  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  about
+  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+  .about-left{
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-right{
+    float: none;
+    width: 100%;
+  }
+
+  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  course
+  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+  .course-wrapper{
+    flex-wrap: wrap;
+  }
+
+  .course-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  contact
+  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+  input[type="email"],input[type="text"]{
+    width: 100%;
+  }
+
+  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
+  footer
+  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+  footer{
+    font-size: 10%;
+    float: none;
+    text-align: center;
+  }
+}
